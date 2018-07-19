@@ -1,0 +1,48 @@
+1. Introduction
+This program is designed to calculate the Value of Risk (VaR) and Expected Shortfall (ES) of interest rate swap using three traditional methods:
+a. Historical Method: 
+Assume past will have happen again in the future.
+Use historical swap NPV change to simulated future swap NPV, then calculate future P&L, then we have VaR and ES.
+
+b. Analytical Method:
+Assume return of swap NPV follow normal distribution
+VaR = mu ¨C Z_alpha*sigma, will mu is the mean of return of option, sigma is standard deviation of return of option, Z_alpha is the Z-stat value given percentile alpha. 
+
+c. Monte Carlo Method: 
+First note that swap can be replicated by a basket of discount bonds, so actually we are trying to simulate future discount bond prices, then calculate future swap NPV.
+For future discount bond prices simulation, we used HW1F model. Note we first need to calibrate the parameters in the model by current volatility surface and discount factors to build the yield curve. We try to minimize the difference between the model price and market price and optimize the parameters. Then we use the short rate model to simulate future discount bond prices.
+Note the program can also be used for pricing swap by Monte Carlo method.
+See comments in the program for more explanation.
+
+2. Data Input
+See Main.cpp for data input, input like portfolio quantity (i.e. notional), maturity & tenor, current short rate (libor overnight rate in the example), fixed rate of swap, percentile.
+Note if one need to use Historical or Analytical method, historical swap NPV data is needed. But sometimes the data may not  be accessible.
+The data set must include:
+a.	NPV	  
+b.	Return	
+If Monte Carlo method is used, current swaption volatility surface, current discount factors, dates need to be input in Swap_MC.h. We use data at April 1st 2011 from Bloomberg in example.
+
+3. Result
+We use April 1st 2011, a 0x5 Swap for example. We can see that the program can be used for pricing swaption. The result is:
+OUTPUT:
+Calculating VaR by Historical method
+
+Calculating VaR by Analytical method (mu-alpha*sigma)
+
+Calculating VaR by Monte Carlo method (Hull-White One Factor Model)
+Hull-White (analytic formulae) calibration
+calibrated to:
+a = 0.0323334, sigma = 0.0123089
+
+Swap NPV by Monte Carlo =2.9772
+
+0x5 Swap
+Confidence level: 95%
+Current value: 3.11088
+Historical VaR = -0.58851
+Historical ES  = -0.758888
+Analytical VaR = -0.38745
+Analytical ES  = -0.485878
+MonteCarlo VaR = -0.599579
+MonteCarlo ES  = -0.727005
+Press any key to continue . . .

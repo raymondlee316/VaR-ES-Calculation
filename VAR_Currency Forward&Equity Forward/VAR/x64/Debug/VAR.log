@@ -1,0 +1,77 @@
+﻿  VaR.cpp
+c:\raymond\nyu tandon\internship\var_es_calculation\var_currency forward&equity forward\var\var.h(23): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\var_es_calculation\var_currency forward&equity forward\var\var.h(25): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\handle.hpp(170): error C2039: 'operator std::shared_ptr<QuantLib::Observable>': is not a member of 'QuantLib::Handle<T>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\handle.hpp(170): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\utilities\observablevalue.hpp(98): error C2039: 'operator std::shared_ptr<QuantLib::Observable>': is not a member of 'QuantLib::ObservableValue<T>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\utilities\observablevalue.hpp(98): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\math\latentmodel.hpp(774): error C3861: 'URNG': identifier not found
+  c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\math\latentmodel.hpp(780): note: see reference to class template instantiation 'QuantLib::LatentModel<copulaPolicyImpl>::FactorSampler<QuantLib::RandomSequenceGenerator<QuantLib::BoxMullerGaussianRng<URNG>>,dummy>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\math\constants\constants.hpp(265): note: see reference to class template instantiation 'boost::math::constants::detail::constant_half<T>' being compiled
+          with
+          [
+              T=double
+          ]
+  c:\local\boost_1_67_0_b1_rc2\boost\math\constants\constants.hpp(265): note: see reference to function template instantiation 'double boost::math::constants::half<T,boost::math::policies::policy<boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy,boost::math::policies::default_policy>>(void) noexcept' being compiled
+          with
+          [
+              T=double
+          ]
+  c:\local\boost_1_67_0_b1_rc2\boost\math\special_functions\detail\bernoulli_details.hpp(82): note: see reference to function template instantiation 'double boost::math::constants::half<double>(void) noexcept' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(54): note: see reference to class template instantiation 'boost::arg<9>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(53): note: see reference to class template instantiation 'boost::arg<8>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(52): note: see reference to class template instantiation 'boost::arg<7>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(51): note: see reference to class template instantiation 'boost::arg<6>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(50): note: see reference to class template instantiation 'boost::arg<5>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(49): note: see reference to class template instantiation 'boost::arg<4>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(48): note: see reference to class template instantiation 'boost::arg<3>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(47): note: see reference to class template instantiation 'boost::arg<2>' being compiled
+  c:\local\boost_1_67_0_b1_rc2\boost\bind\placeholders.hpp(46): note: see reference to class template instantiation 'boost::arg<1>' being compiled
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mceverestengine.hpp(283): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCEverestEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mceverestengine.hpp(283): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mchimalayaengine.hpp(235): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCHimalayaEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mchimalayaengine.hpp(235): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mcpagodaengine.hpp(237): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCPagodaEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\exoticoptions\mcpagodaengine.hpp(237): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\math\particleswarmoptimization.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\mcbasket\mcamericanpathengine.hpp(256): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCAmericanPathEngine<RNG>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\mcbasket\mcamericanpathengine.hpp(256): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\mcbasket\mcpathbasketengine.hpp(330): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCPathBasketEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\mcbasket\mcpathbasketengine.hpp(330): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\interpolations\lagrangeinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\volatility\noarbsabr.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\distributions\bivariatestudenttdistribution.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\randomnumbers\stochasticcollocationinvcdf.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_geom_av_price.hpp(219): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCDiscreteGeometricAPEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_geom_av_price.hpp(219): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_arith_av_price.hpp(264): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCDiscreteArithmeticAPEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_arith_av_price.hpp(264): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_arith_av_strike.hpp(208): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCDiscreteArithmeticASEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\asian\mc_discr_arith_av_strike.hpp(208): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\barrier\mcbarrierengine.hpp(356): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCBarrierEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\barrier\mcbarrierengine.hpp(356): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\basket\mcamericanbasketengine.hpp(259): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCAmericanBasketEngine<RNG>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\basket\mcamericanbasketengine.hpp(259): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\basket\mceuropeanbasketengine.hpp(285): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCEuropeanBasketEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\basket\mceuropeanbasketengine.hpp(285): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\capfloor\mchullwhiteengine.hpp(240): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCHullWhiteCapFloorEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\capfloor\mchullwhiteengine.hpp(240): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\cliquet\mcperformanceengine.hpp(243): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCPerformanceEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\cliquet\mcperformanceengine.hpp(243): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\forward\mcvarianceswapengine.hpp(300): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCVarianceSwapEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\forward\mcvarianceswapengine.hpp(300): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\swap\cvaswapengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeanengine.hpp(230): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCEuropeanEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeanengine.hpp(230): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mcamericanengine.hpp(372): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCAmericanEngine<RNG,S,RNG_Calibration>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mcamericanengine.hpp(372): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mcdigitalengine.hpp(263): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCDigitalEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mcdigitalengine.hpp(263): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeanhestonengine.hpp(205): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCEuropeanHestonEngine<RNG,S,P>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeanhestonengine.hpp(205): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeangjrgarchengine.hpp(202): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCEuropeanGJRGARCHEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mceuropeangjrgarchengine.hpp(202): error C2447: '{': missing function header (old-style formal list?)
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mchestonhullwhiteengine.hpp(299): error C2039: 'operator std::shared_ptr<QuantLib::PricingEngine>': is not a member of 'QuantLib::MakeMCHestonHullWhiteEngine<RNG,S>'
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\vanilla\mchestonhullwhiteengine.hpp(299): error C2447: '{': missing function header (old-style formal list?)

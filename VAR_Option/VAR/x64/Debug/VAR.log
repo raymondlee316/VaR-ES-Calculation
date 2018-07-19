@@ -1,0 +1,20 @@
+﻿  BSModel.cpp
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\bsmodel.h(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CSVParser.cpp
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\csvparser.cpp(115): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\csvparser.cpp(120): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\csvparser.cpp(202): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Main.cpp
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\main.cpp(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\raymond\nyu tandon\internship\var_es_calculation\var_option\var\main.cpp(18): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  VaR.cpp
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\blackformula.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\math\particleswarmoptimization.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\interpolations\lagrangeinterpolation.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\swaptions\haganirregularswaptionengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\experimental\volatility\noarbsabr.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\distributions\bivariatestudenttdistribution.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\math\randomnumbers\stochasticcollocationinvcdf.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\raymond\nyu tandon\internship\quantlib-1.12\quantlib-1.12\ql\pricingengines\swap\cvaswapengine.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'QuantLib-vc141-x64-mt-gd.lib'

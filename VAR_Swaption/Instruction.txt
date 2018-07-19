@@ -1,0 +1,48 @@
+1. Introduction
+This program is designed to calculate the Value of Risk (VaR) and Expected Shortfall (ES) of interest rate swaption using three traditional methods:
+a. Historical Method: 
+Assume past will have happen again in the future.
+Use historical option price change to simulated future option price, then calculate future P&L, then we have VaR and ES.
+b. Analytical Method:
+Assume return of option follow normal distribution
+VaR = mu ¨C Z_alpha*sigma, will mu is the mean of return of option, sigma is standard deviation of return of option, Z_alpha is the Z-stat value given percentile alpha. 
+c. Monte Carlo Method: 
+We actually use delta-gamma-vega normal approach to calculate. We first simulate forward swap rate based on Hull-White One Factor Model (HW1F), and times delta and gamma to get swaption P&L based on that. Then we use historical implied volatility change times vega to get swaption P&L solely based on that, it¡¯s similar with Historical method. Finally we sum them up and we call it delta-gamma-vega normal approach.
+For forward swap rate simulation, we used HW1F model. Note we first need to calibrate the parameters in the model by current volatility surface and discount factors to build the yield curve. We try to minimize the difference between the model price and market price and optimize the parameters. Then we use the short rate model to simulate forward swap rate, which is actually a discount bond pricing problem.
+Note the Monte Carlo method is only used for ATM swaption because we only simulate the forward swap rate for ATM swaption. The program can also be used for pricing swaption by Monte Carlo method.
+
+See comments in the program for more explanation.
+
+2. Data Input
+See Main.cpp for data input, input like portfolio quantity, greeks of swaption (delta, gamma, vega), maturity & tenor, current short rate (libor overnight rate in the example), strike rate, percentile.
+Note if one need to use Monte Carlo method, current swation volatility surface, current discount factors, date need to be input in Swation_MC.h. We use data at July 1st 2011 in example.
+try data set SwaptionIV_7x6.csv
+Note: the data set must include:
+a.	OPTION_PRICE	  
+b.	OPTION_RETURN	
+c.	IMPLIED_VOLATILITY
+
+3. Result
+We use July 1st 2011, a 7x6 European  Swaption for example. We can see that the program can be used for pricing swaption. Note the result from Monte Carlo is different from the results by Historical and Analytical methods. This is due to Monte Carlo doesn't rely on historical data but on mathematical pricing models, so they have different assumption. The result is:
+OUTPUT:
+Calculating VaR by Historical method
+
+Calculating VaR by Analytical method (mu-alpha*sigma)
+
+Calculating VaR by Monte Carlo method (Hull-White One Factor Model)
+Hull-White (analytic formulae) calibration
+calibrated to:
+a = 0.0165392, sigma = 0.0110787
+
+Swaption NPV by Monte Carlo =2.81757
+
+8x3 Swaption
+Confidence level: 95%
+Current value: 2.57135
+Historical VaR = -0.04565
+Historical ES  = -0.0631091
+Analytical VaR = -0.0425588
+Analytical ES  = -0.0533704
+MonteCarlo VaR = -0.02236
+MonteCarlo ES  = -0.0283764
+Press any key to continue . . .

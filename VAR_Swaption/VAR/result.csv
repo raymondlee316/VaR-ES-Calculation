@@ -1,0 +1,9 @@
+8x3 Swaption
+Confidence level: 95%
+Current value: 2.57135
+Historical VaR = -0.04565
+Historical ES  = -0.0631091
+Analytical VaR = -0.0425588
+Analytical ES  = -0.0533704
+MonteCarlo VaR = -0.02236
+MonteCarlo ES  = -0.0283764

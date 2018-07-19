@@ -1,0 +1,11 @@
+﻿  VaR.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\swap_mc.h(56): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\swap_mc.h(190): warning C4244: 'initializing': conversion from 'double' to 'QuantLib::Size', possible loss of data
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\swap_mc.h(200): warning C4244: 'argument': conversion from 'QuantLib::Size' to 'QuantLib::Time', possible loss of data
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\var.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\var.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\var.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\var.cpp(64): warning C4018: '<': signed/unsigned mismatch
+c:\raymond\nyu tandon\internship\var_es_calculation\var_swap\var\var.cpp(90): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  VAR.vcxproj -> C:\raymond\NYU Tandon\Internship\VaR_ES_Calculation\VAR_Swap\x64\Debug\VAR.exe
